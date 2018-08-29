@@ -1,0 +1,11 @@
+[package]
+name = "proc_macro_test"
+version = "0.1.0"
+authors = ["Kane <kane@sendgrid.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.14.9"
+quote = "0.6"
